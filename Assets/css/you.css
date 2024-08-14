@@ -1,0 +1,114 @@
+.header{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.right-header{
+    height: 40px;
+    display: flex;
+    
+}
+.icon{
+    height: 40px;
+}
+.icon1{
+    height:20px;
+}
+.mid-header{
+
+    height: 40px;   
+      
+
+}
+.left-header button{
+    border-radius: 7px 7px 7px 7px;
+    background-color: white;
+    border:none;
+}
+.flex{
+    display: flex;
+}
+
+.mid-header input{
+    border-radius: 18px 0px 0px 18px;
+    width: 300px;
+   
+}
+.mid-header button{
+    text-align: center;
+    background-color:lightgrey;
+    border-radius: 0px 18px 18px 0px;
+}
+.left-header{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+
+.content-section{
+        flex-direction: column;
+        height: 40px;
+        background-color: white;
+}
+.content-section button{
+    background-color: white;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+}
+.content-section button:hover{
+    background-color: lightgrey;
+    color: white;
+}
+.text-align-center{
+    text-align: center;
+}
+
+
+.choice-sec{
+    width: 1400px;
+    
+    margin-bottom: 10px;
+    overflow: scroll;
+    margin-right: 10px;
+   
+   
+    
+}
+
+::-webkit-scrollbar{
+    height: 0px;
+}
+.choice-sec button{
+ height: 40px;
+ width: 100px;
+ min-width: 100px;
+ border-radius: 6px 6px 6px 6px;
+ border: none;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-right:10px;
+}
+.choice-sec button:hover{
+    background-color: black;
+    color: white;
+}
+.box{
+    height: 250px;
+    background-color:white;
+    margin-top: 20px;
+   
+  
+}
+.vedio-sec{
+    width: 30.9%;
+    padding: 10px;
+    border-radius: 7px 7px 7px 7px;
+}
+.vedio-sec img{
+    width: 100%;
+    border-radius: 8px ;
+    height: 80%;
+    border: none;
+}
